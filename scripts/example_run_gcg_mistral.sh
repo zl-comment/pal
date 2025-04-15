@@ -18,9 +18,9 @@ for behavior in $(seq $start $end); do
         --config.log_freq=1 \
         --config.fixed_params=True \
         -- \
-        --scenario "AdvBenchAll" --behaviors $behavior --system_message "llama_default" \
-        --model 'llama-2@/home/zl/ZLCODE/model/Llama-2-7b-chat-hf' --verbose
-        
+        --scenario "AdvBenchAll" --behaviors $behavior --system_message "mistral" \
+        --model 'llama-2@/home/zl/ZLCODE/model/Mistral-7B-Instruct-v0.2' --verbose
+
     # 释放显存
     python -c "import torch; torch.cuda.empty_cache()"
 done

@@ -8,7 +8,7 @@ python -u main.py \
     --config="./configs/pal.py" \
     --config.add_space=True \
     --config.adv_suffix_init="! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !" \
-    --config.batch_size=128 \
+    --config.batch_size=8 \
     --config.cw_margin=1.0 \
     --config.early_stop=False \
     --config.finetune=False \
@@ -36,7 +36,7 @@ python -u main.py \
     -- \
     --scenario "AdvBenchAll" \
     --log_dir "./results/" \
-    --model "llama-2@~/data/models/Llama-2-7b-chat-hf" \
+    --model "llama-2@~/home/zl/ZLCODE/model/Llama-2-7b-chat-hf" \
     --seed 20 \
     --init_suffix_path "data/init_suffix/AdvBenchAll/vicuna-7b-v1.5-16k_gcg_len20.jsonl" \
     --behaviors 0 \
