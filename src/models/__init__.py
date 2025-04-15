@@ -60,6 +60,10 @@ SYSTEM_MESSAGES = {
         "behavior."
     ),
     "llama3_default": "You are a helpful assistant",
+
+    "guanaco":  """A chat between a curious human and an artificial intelligence assistant.
+     The assistant gives helpful, detailed, and polite answers to the user's questions."""
+
 }
 
 
