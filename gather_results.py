@@ -7,8 +7,8 @@ from typing import Any
 import numpy as np
 from tabulate import tabulate
 
-# MODEL = "Llama-2-7b-chat-hf"
-MODEL = "vicuna-7b-v1.3"
+MODEL = "Llama-2-7b-chat-hf"
+# MODEL = "vicuna-7b-v1.3"
 # MODEL = "mistral-7b-instruct-v0.1"
 ATTACKS = ["gcg", "ral"]
 
